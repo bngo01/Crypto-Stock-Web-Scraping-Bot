@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-A Discord bot created with Python to web scrape various user requested crypto and stock information given the ticker symbol. Price data provided by Seeking Alpha (seekingalpha.com)
+A Discord bot created with Python to web scrape various user requested crypto and stock information given the ticker symbol. Price data provided by Seeking Alpha (seekingalpha.com).
 
 Gathering stock data: 
 ---------------------
