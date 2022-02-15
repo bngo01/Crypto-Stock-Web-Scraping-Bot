@@ -49,10 +49,10 @@ async def crypto(context, *args):
             # Web scrape data
             price = soup.find("span", class_ = "price-section__current-value")
 
-            # Creating Embed
+            # Create Embed
             output_embed = discord.Embed(title = "Crypto Data: ", description = "{} Price: ${}\nUpdated as of {}".format(args[0], price.text, time.strftime(r"%m/%d/%y %I:%M:%S%p EST")), color = 0xff0000)
             output_embed.set_footer(text = "Data Provided by Business Insider (markets.businessinsider.com)")
-            # Displaying Embed
+            # Display Embed
             await context.channel.send(embed = output_embed)
     else:
         await context.channel.send("Please enter the command corrently e.g. !crypto BTC price")
@@ -75,10 +75,10 @@ async def stock(context, *args):
             # Web scrape data
             price = soup.find("span", class_ = "price-section__current-value")
 
-            # Creating Embed
+            # Create Embed
             output_embed = discord.Embed(title = "Stock Data: ", description = "{} Price: ${}\nUpdated as of {}".format(args[0], price.text, time.strftime(r"%m/%d/%y %I:%M:%S%p EST")), color = 0xff0000)
             output_embed.set_footer(text = "Data Provided by Business Insider (markets.businessinsider.com)")
-            # Displaying Embed
+            # Display Embed
             await context.channel.send(embed = output_embed)
     else:
         await context.channel.send("Please enter the command correctly e.g. !stock AAPL price")
