@@ -27,6 +27,3 @@ This command will fetch the crypto with ticker BTCUSD at the time requested.
 !crypto ETH price
 ```
 This command will fetch the crypto with ticker ETHUSD at the time requested.
-
-## License & Copyright
-© Bao N Ngo
