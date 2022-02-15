@@ -1,4 +1,4 @@
-# Crypto/Stock Web Scraping Bot
+# Stock/Crypto Web Scraping Bot
 
 **Version 1.0**
 
